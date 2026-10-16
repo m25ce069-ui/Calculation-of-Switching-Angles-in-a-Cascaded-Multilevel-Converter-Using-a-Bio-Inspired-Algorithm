@@ -1,0 +1,21 @@
+          MATLAB: '24.2.0.2712019 (R2024b)'
+    Arquitectura: 'PCWIN64'
+       Toolboxes: [1×113 struct]
+           Fecha: '2026-10-07 21:50:20'
+     Paralelismo: 'Ejecucion serial; sin parfor ni GPU'
+             CPU: 'AMD Ryzen 7 7445HS w/ Radeon 740M Graphics'
+          RAM_GB: 15.2676
+           Hilos: 6
+              OS: '↵Microsoft Windows [Versión 10.0.26300.9457]↵'
+
+
+Modelo analitico ideal; sin circuito conmutado ni hardware.
+Tiempo_s: ejecucion sin registro detallado (si MedirSinRegistro=true).
+TiempoInstrumentado_s: ejecucion con registro de mejoras.
+TiempoHastaObjetivo_s pertenece a la ejecucion instrumentada.
+Incluye inicializacion, objetivo, reparacion y operadores; excluye graficas y archivos.
+Las semillas emparejan poblaciones iniciales dentro de cada caso.
+Objetivo empirico por caso: menor J final observado + tolerancia. No es optimo probado.
+Las corridas sin objetivo alcanzado conservan NaN; no se sustituyen por el presupuesto.
+Sensibilidad: un factor a la vez, no ajuste automatico ni parametros optimos.
+Las diferencias numericas/estadisticas no demuestran relevancia fisica.

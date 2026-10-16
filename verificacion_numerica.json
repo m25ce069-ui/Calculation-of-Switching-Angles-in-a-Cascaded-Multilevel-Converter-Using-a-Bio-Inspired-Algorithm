@@ -1,0 +1,43 @@
+{
+  "rows": 120,
+  "events": 6717,
+  "history_rows": 24120,
+  "max_J_error": 1.3695711231775931e-12,
+  "max_THD_error": 6.039613253960852e-14,
+  "delta_thd_pp": 0.00046568658529899665,
+  "delta_thd_relative_percent": 0.003990764233549911,
+  "equiv_harmonic_rms_V": 0.0008232253559313201,
+  "afta_runtime_reduction_vs_de_pct": 40.43905522216888,
+  "AFTA": {
+    "time_instrumented_mean": 1.192590503333333,
+    "time_to_target_min": 0.0891408,
+    "time_to_target_max": 0.4334579,
+    "eval_to_target_min": 14377.0,
+    "eval_to_target_max": 63546.0,
+    "maxTHD": 11.6691079213355
+  },
+  "DE": {
+    "time_instrumented_mean": 2.0036652700000004,
+    "time_to_target_min": 0.2562644,
+    "time_to_target_max": 0.3747003,
+    "eval_to_target_min": 24637.0,
+    "eval_to_target_max": 32993.0,
+    "maxTHD": 11.6691079213355
+  },
+  "GWO": {
+    "time_instrumented_mean": 1.3803974466666666,
+    "time_to_target_min": NaN,
+    "time_to_target_max": NaN,
+    "eval_to_target_min": NaN,
+    "eval_to_target_max": NaN,
+    "maxTHD": 11.6806282704469
+  },
+  "TLBO": {
+    "time_instrumented_mean": 1.3678980500000002,
+    "time_to_target_min": 1.0739817,
+    "time_to_target_max": 1.1782505,
+    "eval_to_target_min": 159528.0,
+    "eval_to_target_max": 177234.0,
+    "maxTHD": 11.6749440188984
+  }
+}
