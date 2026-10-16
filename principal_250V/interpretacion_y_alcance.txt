@@ -1,0 +1,21 @@
+Caso: principal_250V
+Referencia empirica J = 11.6691079213354; limite J = 11.6701079213354; error <= 0.1 V.
+Separacion maxima THD de mejores soluciones = 0.000465686585304 puntos porcentuales.
+Separacion relativa al mejor THD = 0.0039907642336 % .
+Equivalente a V1 comun de referencia: 0.000823225355941 V RMS armonicos (modelo truncado).
+La cifra anterior supone V1 comun; no es una medicion fisica.
+THD calculada con armonicos impares 3..Hmax; no THD de banda infinita.
+La referencia de exito es retrospectiva, obtenida del mismo caso.
+Medianas hasta objetivo: solo exitos; leer junto a tasa de alcance y ERT.
+ECDF de alcance usa todas las corridas; los fallos no llegan artificialmente al 100%.
+Tiempo amortizado = tiempo total/MaxEval, NO costo aislado del objetivo.
+J es la metrica principal; THD, error y tiempo son analisis secundarios.
+Friedman: bloques por semilla; p asintotica corregida por empates.
+Wilcoxon: distribucion exacta de signos de rangos, ceros excluidos.
+Wilcoxon supone simetria de diferencias; examinar diferencias_pareadas_J.png.
+Se incluye prueba exacta de signos como analisis de sensibilidad sin simetria.
+Holm por metrica y Holm global se reportan por separado; evitar elegir el menor p.
+R biserial negativo favorece A (menor valor); W de Kendall mide concordancia de rangos.
+El redondeo estadistico elimina diferencias de precision numerica; no altera CSV.
+Una diferencia significativa no demuestra ventaja ingenieril.
+Inferencia limitada a este caso y estas implementaciones, no a todos los inversores.
